@@ -2,11 +2,16 @@
 
 A small, dependency-free DSH skin inspired by the color system of [tw93/Kami](https://github.com/tw93/kami). It uses DSH's official theme-token override API rather than replacing application CSS.
 
+## Preview
+
+![Kami paper theme applied in DeepSeek Harness](preview.png)
+
 ## Visual language
 
 - Warm parchment `#f5f4ed` as the main canvas
 - Ivory `#faf9f5` and warm sand for layered surfaces
-- Ink blue `#1B365D` as the restrained primary accent
+- Ink blue `#1B365D` as the restrained primary accent, including links, focus rings, and filled send actions
+- Pale ink tints on elevated actions such as New Session, preserving their existing text-color semantics
 - Warm near-black and olive-gray text instead of cool blue-grays
 - Fine warm borders, with a warm-charcoal adaptation for dark appearance
 - Muted semantic colors kept only for success, warning, and error feedback

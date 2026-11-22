@@ -28,9 +28,70 @@ window.__ModuleLoader__.load({
         light: '#d8d5c8',
         dark: '#504e49',
       },
+      '--dsw-alias-border-l3': {
+        light: '#d8d5c8',
+        dark: '#504e49',
+      },
+      '--dsw-alias-border-selected': {
+        light: '#1B365D',
+        dark: '#b9c6d8',
+      },
       '--dsw-alias-brand-primary': {
         light: '#1B365D',
         dark: '#b9c6d8',
+      },
+      '--dsw-alias-brand-text': {
+        light: '#1B365D',
+        dark: '#b9c6d8',
+      },
+      '--dsw-alias-link': {
+        light: '#1B365D',
+        dark: '#b9c6d8',
+      },
+      '--dsw-alias-state-business-primary': {
+        light: '#1B365D',
+        dark: '#b9c6d8',
+      },
+      '--dsw-alias-state-business-tertiary': {
+        light: '#E4ECF5',
+        dark: '#303f52',
+      },
+      '--dsw-alias-button-primary-fill': {
+        light: '#1B365D',
+        dark: '#b9c6d8',
+      },
+      '--dsw-alias-button-primary-hover': {
+        light: '#2D5A8A',
+        dark: '#d6e1ee',
+      },
+      '--dsw-alias-button-primary-dimmed': {
+        light: '#E4ECF5',
+        dark: '#303f52',
+      },
+      '--dsw-alias-button-info-fill': {
+        light: '#1B365D',
+        dark: '#b9c6d8',
+      },
+      '--dsw-alias-button-info-hover': {
+        light: '#2D5A8A',
+        dark: '#d6e1ee',
+      },
+      // Elevated actions keep their ordinary label-primary text, so use a tint.
+      '--dsw-alias-button-elevated-fill': {
+        light: '#E4ECF5',
+        dark: '#303f52',
+      },
+      '--dsw-alias-button-floating-hover': {
+        light: '#d6e1ee',
+        dark: '#3d5068',
+      },
+      '--dsw-alias-interactive-bg-active': {
+        light: 'rgba(27, 54, 93, 0.10)',
+        dark: 'rgba(185, 198, 216, 0.14)',
+      },
+      '--dsw-alias-interactive-bg-hover-accent': {
+        light: 'rgba(27, 54, 93, 0.14)',
+        dark: 'rgba(185, 198, 216, 0.20)',
       },
       '--dsw-alias-label-primary': {
         light: '#141413',
@@ -41,6 +102,14 @@ window.__ModuleLoader__.load({
         dark: '#c7c2b6',
       },
       '--dsw-alias-label-on-color': {
+        light: '#faf9f5',
+        dark: '#141413',
+      },
+      '--dsw-alias-label-primary-foreground': {
+        light: '#faf9f5',
+        dark: '#141413',
+      },
+      '--dsw-alias-label-primary-inverted': {
         light: '#faf9f5',
         dark: '#141413',
       },
@@ -60,9 +129,21 @@ window.__ModuleLoader__.load({
         light: '#8b6a2b',
         dark: '#d0b783',
       },
+      '--dsw-specific-input-major': {
+        light: '#faf9f5',
+        dark: '#242421',
+      },
       '--dsw-specific-sidebar-fill': {
         light: '#f0eee6',
         dark: '#1d1d1b',
+      },
+      '--dsw-specific-sidebar-nav-item-active-accent': {
+        light: '#E4ECF5',
+        dark: '#303f52',
+      },
+      '--dsw-specific-sidebar-nav-item-active': {
+        light: '#E4ECF5',
+        dark: '#303f52',
       },
     };
 
