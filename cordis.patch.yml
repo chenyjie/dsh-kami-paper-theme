@@ -1,0 +1,4 @@
+- insert:
+    - id: kami-paper-theme
+      name: '@local/kami-paper-theme'
+      config: {}
